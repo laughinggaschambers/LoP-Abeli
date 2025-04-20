@@ -1,0 +1,9 @@
+{
+  "type": "content",
+  "modid": "abelisauridae",
+  "name": "Legacy of the Phanerozoic: Carnivorous Bull",
+  "authors": [ "laughinggas" ],
+  "description": "Adds severals abelisaurids to Vintage Story",
+  "version": "1.0.0",
+  "side": "Universal"
+}
