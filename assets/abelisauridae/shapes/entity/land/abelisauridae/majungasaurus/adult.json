@@ -853,7 +853,7 @@
 														{
 															"name": "Low Jaw",
 															"from": [ -12.9, -1.9, 2.4 ],
-															"to": [ -3.1, 1.0, 6.2 ],
+															"to": [ -2.1, 1.0, 6.2 ],
 															"autoUnwrap": false,
 															"uv": [ 117.0, 42.0 ],
 															"rotationOrigin": [ -2.3, 2.2, 4.2 ],
@@ -3370,7 +3370,7 @@
 								"south": { "texture": "#base-adult", "uv": [ 142.72, 117.76, 161.92, 128.64 ], "autoUv": false },
 								"west": { "texture": "#base-adult", "uv": [ 243.84, 0.64, 253.44, 11.52 ], "autoUv": false },
 								"up": { "texture": "#base-adult", "uv": [ 142.72, 98.56, 161.92, 108.16 ], "autoUv": false },
-								"down": { "texture": "#base-adult", "uv": [ 143.0, 148.0, 163.0, 158.0 ], "rotation": 180 }
+								"down": { "texture": "#base-adult", "uv": [ 143.0, 148.0, 163.5, 158.5 ], "rotation": 180 }
 							},
 							"children": [
 								{
@@ -7181,7 +7181,7 @@
 						},
 						{
 							"code": "Rider",
-							"posX": "3.0","posY": "13.0","posZ": "8.0",
+							"posX": "5.0","posY": "6.0","posZ": "8.0",
 							"rotationX": "0.0","rotationY": "-180.0","rotationZ": "0.0"
 						}
 					]

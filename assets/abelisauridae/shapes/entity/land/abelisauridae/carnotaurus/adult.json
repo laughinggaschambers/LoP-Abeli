@@ -283,8 +283,8 @@
 																				"east": { "texture": "#base-adult", "uv": [ 179.0, 5.0, 181.0, 6.0 ] },
 																				"south": { "texture": "#base-adult", "uv": [ 176.0, 5.0, 179.0, 6.0 ] },
 																				"west": { "texture": "#base-adult", "uv": [ 174.0, 5.0, 176.0, 6.0 ] },
-																				"up": { "texture": "#base-adult", "uv": [ 174.0, 2.0, 176.0, 5.0 ], "rotation": 90 },
-																				"down": { "texture": "#base-adult", "uv": [ 174.0, 6.0, 176.0, 9.0 ], "rotation": 90 }
+																				"up": { "texture": "#base-adult", "uv": [ 174.0, 2.0, 176.0, 5.5 ], "rotation": 90 },
+																				"down": { "texture": "#base-adult", "uv": [ 174.0, 6.0, 176.0, 9.5 ], "rotation": 90 }
 																			},
 																			"children": [
 																				{
@@ -373,8 +373,8 @@
 																				"east": { "texture": "#base-adult", "uv": [ 179.0, 5.0, 181.0, 6.0 ] },
 																				"south": { "texture": "#base-adult", "uv": [ 176.0, 5.0, 179.0, 6.0 ] },
 																				"west": { "texture": "#base-adult", "uv": [ 174.0, 5.0, 176.0, 6.0 ] },
-																				"up": { "texture": "#base-adult", "uv": [ 174.0, 2.0, 176.0, 5.0 ], "rotation": 90 },
-																				"down": { "texture": "#base-adult", "uv": [ 174.0, 6.0, 176.0, 9.0 ], "rotation": 90 }
+																				"up": { "texture": "#base-adult", "uv": [ 174.0, 2.0, 176.0, 5.5 ], "rotation": 90 },
+																				"down": { "texture": "#base-adult", "uv": [ 174.0, 6.0, 176.0, 9.5 ], "rotation": 90 }
 																			},
 																			"children": [
 																				{
@@ -3422,7 +3422,7 @@
 								"south": { "texture": "#base-adult", "uv": [ 142.72, 117.76, 161.92, 128.64 ], "autoUv": false },
 								"west": { "texture": "#base-adult", "uv": [ 243.84, 0.64, 253.44, 11.52 ], "autoUv": false },
 								"up": { "texture": "#base-adult", "uv": [ 142.72, 98.56, 161.92, 108.16 ], "autoUv": false },
-								"down": { "texture": "#base-adult", "uv": [ 143.0, 148.0, 163.0, 158.0 ], "rotation": 180 }
+								"down": { "texture": "#base-adult", "uv": [ 143.0, 148.0, 163.5, 158.5 ], "rotation": 180 }
 							},
 							"children": [
 								{
@@ -7233,7 +7233,7 @@
 						},
 						{
 							"code": "Rider",
-							"posX": "3.0","posY": "13.0","posZ": "8.0",
+							"posX": "3.0","posY": "17.0","posZ": "8.0",
 							"rotationX": "0.0","rotationY": "-180.0","rotationZ": "0.0"
 						}
 					]

@@ -283,8 +283,8 @@
 																				"east": { "texture": "#base-adult", "uv": [ 176.0, 5.0, 178.0, 6.0 ] },
 																				"south": { "texture": "#base-adult", "uv": [ 173.0, 5.0, 176.0, 6.0 ] },
 																				"west": { "texture": "#base-adult", "uv": [ 171.0, 5.0, 173.0, 6.0 ] },
-																				"up": { "texture": "#base-adult", "uv": [ 171.0, 2.0, 173.0, 5.0 ], "rotation": 90 },
-																				"down": { "texture": "#base-adult", "uv": [ 171.0, 6.0, 173.0, 9.0 ], "rotation": 90 }
+																				"up": { "texture": "#base-adult", "uv": [ 171.0, 2.0, 173.0, 5.5 ], "rotation": 90 },
+																				"down": { "texture": "#base-adult", "uv": [ 171.0, 6.0, 173.0, 9.5 ], "rotation": 90 }
 																			}
 																		},
 																		{
@@ -302,8 +302,8 @@
 																				"east": { "texture": "#base-adult", "uv": [ 176.0, 5.0, 178.0, 6.0 ] },
 																				"south": { "texture": "#base-adult", "uv": [ 173.0, 5.0, 176.0, 6.0 ] },
 																				"west": { "texture": "#base-adult", "uv": [ 171.0, 5.0, 173.0, 6.0 ] },
-																				"up": { "texture": "#base-adult", "uv": [ 171.0, 2.0, 173.0, 5.0 ], "rotation": 90 },
-																				"down": { "texture": "#base-adult", "uv": [ 171.0, 6.0, 173.0, 9.0 ], "rotation": 90 }
+																				"up": { "texture": "#base-adult", "uv": [ 171.0, 2.0, 173.0, 5.5 ], "rotation": 90 },
+																				"down": { "texture": "#base-adult", "uv": [ 171.0, 6.0, 173.0, 9.5 ], "rotation": 90 }
 																			}
 																		},
 																		{
@@ -6857,7 +6857,7 @@
 						},
 						{
 							"code": "Rider",
-							"posX": "3.0","posY": "13.0","posZ": "8.0",
+							"posX": "3.0","posY": "17.0","posZ": "8.0",
 							"rotationX": "0.0","rotationY": "-180.0","rotationZ": "0.0"
 						}
 					]

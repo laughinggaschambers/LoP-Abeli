@@ -1,4 +1,5 @@
 [
+
   {
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
@@ -6,7 +7,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-tyrannosaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-pycnonemosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -17,51 +18,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-tyrannosaurus-egg-raw",
-      "shapeElement": "bowl/egg/*", 
-      "textureMapping": ["scrambledegg", "group7"]
-    }
-  },
-  {
-    "file": "game:recipes/cooking/soup",
-    "side": "server",
-    "op": "addmerge",
-    "path": "/ingredients/4/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-tyrannosaurus-egg-raw",
-      "shapeElement": "bowl/meat/*"
-    }
-  },
-  {
-    "file": "game:blocktypes/clay/pot",
-    "side": "server",
-    "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-tyrannosaurus-egg-raw",
-    "value": [ "meat", "group6" ]
-  },
-
-
-
-  {
-    "file": "game:recipes/cooking/meatystew",
-    "side": "server",
-    "op": "addmerge",
-    "path": "/ingredients/1/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-tarbosaurus-egg-raw",
-      "shapeElement": "bowl/egg/*"
-    }
-  },
-  {
-    "file": "game:recipes/cooking/scrambledeggs",
-    "side": "server",
-    "op": "addmerge",
-    "path": "/ingredients/0/validStacks/-",
-    "value": {
-      "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-tarbosaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-pycnonemosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -73,7 +30,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-tarbosaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-pycnonemosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -81,20 +38,18 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-tarbosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-pycnonemosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
-
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-nanuqsaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-ekrixinatosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -105,7 +60,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-nanuqsaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-ekrixinatosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -117,7 +72,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-nanuqsaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-ekrixinatosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -125,20 +80,18 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-nanuqsaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-ekrixinatosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
-
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-albertosaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-carnotaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -149,7 +102,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-albertosaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-carnotaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -161,7 +114,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-albertosaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-carnotaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -169,21 +122,18 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-albertosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-carnotaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
-
-
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-gorgosaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-chenanisaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -194,7 +144,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-gorgosaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-chenanisaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -206,7 +156,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-gorgosaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-chenanisaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -214,20 +164,18 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-gorgosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-chenanisaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
-
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-alioramus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-rajasaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -238,7 +186,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-alioramus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-rajasaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -250,7 +198,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-alioramus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-rajasaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -258,21 +206,18 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-alioramus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-rajasaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
-
-
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-qianzhousaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-skorpiovenator-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -283,7 +228,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-qianzhousaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-skorpiovenator-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -295,7 +240,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "tyrannosauridae:creature-tyrannosauridae-qianzhousaurus-egg-raw",
+      "code": "abelisauridae:creature-abelisauridae-skorpiovenator-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -303,7 +248,512 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/tyrannosauridae:creature-tyrannosauridae-qianzhousaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-skorpiovenator-egg-raw",
     "value": [ "meat", "group6" ]
   },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-majungasaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-majungasaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-majungasaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-majungasaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-abelisaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-abelisaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-abelisaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-abelisaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-xenotarsosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-xenotarsosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-xenotarsosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-xenotarsosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-aucasaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-aucasaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-aucasaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-aucasaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-rahiolisaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-rahiolisaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-rahiolisaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-rahiolisaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-arcovenator-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-arcovenator-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-arcovenator-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-arcovenator-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-rugops-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-rugops-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-rugops-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-rugops-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-dahalokely-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-dahalokely-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-dahalokely-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-dahalokely-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-ilokelesia-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-ilokelesia-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-ilokelesia-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-ilokelesia-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-viavenator-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-viavenator-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-viavenator-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-viavenator-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-tarascosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-tarascosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-tarascosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-tarascosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-thanos-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-thanos-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "abelisauridae:creature-abelisauridae-thanos-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-thanos-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
 ]

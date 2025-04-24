@@ -1,20 +1,20 @@
 {
-	code: "tyrannowearable",
+	code: "abeliwearable",
 	variantgroups: [
 		{ code: "type", states: [
 			"bridle1","bridle2", "saddle"
 		] }
 	],
 	allowedVariants: [
-		"tyrannowearable-bridle1",
-		"tyrannowearable-bridle2",
-		"tyrannowearable-saddle"
+		"abeliwearable-bridle1",
+		"abeliwearable-bridle2",
+		"abeliwearable-saddle"
 	],
 	attributes: {
 		attachableToEntity: {
 			categoryCodeByType: {
-				"tyrannowearable-bridle*": "tyrannobridle",
-				"tyrannowearable-saddle*": "tyrannosaddle"
+				"abeliwearable-bridle*": "abelibridle",
+				"abeliwearable-saddle*": "abelisaddle"
 			},
 			attachedShapeBySlotCodeByType: {
 				"*-saddle": {"*": { base: "item/wearable/saddle"}},
@@ -28,10 +28,10 @@
 			"*-bridle2": "Press"
 		},
 		isSaddleByType: {
-			"tyrannowearable-saddle": true
+			"abeliwearable-saddle": true
 		},
 		isBridleByType: {
-			"tyrannowearable-bridle*": true
+			"abeliwearable-bridle*": true
 		},
 		interactPassthroughByType: {
 			"*-saddle": true
@@ -53,7 +53,7 @@
 	},
 	heldTpIdleAnimationByType: {
 		"*": "holdbothhands",
-		"tyrannowearable-saddlebags*": "holdbothhands"
+		"abeliwearable-saddlebags*": "holdbothhands"
 	},
 	maxStackSize: 1,
 	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
@@ -65,7 +65,7 @@
 			origin: { x: 0.5, y: 0.2, z: 0.6 },
 			scale: 1
 		},
-		"tyrannowearable-bridle*": {
+		"abeliwearable-bridle*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -45, y: -70, z: -180 },
 			origin: { x: 0.5, y: -0, z: 0.5 },
@@ -78,7 +78,7 @@
 			rotation: { x: 0, y: 0, z: 0 },
 			scale: 5
 		},
-		"tyrannowearable-bridle*": {
+		"abeliwearable-bridle*": {
 			translation: { x: 0, y: 0.5, z: 0 },
 			rotation: { x: 0, y: 0, z: 0 },
 			scale: 5
@@ -90,7 +90,7 @@
 			rotation: { x: -43, y: -17, z: -107 },
 			scale: 0.8
 		},
-		"tyrannowearable-bridle*": {
+		"abeliwearable-bridle*": {
 			translation: { x: -1, y: -1.50, z: -0.6 },
 			rotation: { x: -43, y: -17, z: -107 },
 			scale: 0.8

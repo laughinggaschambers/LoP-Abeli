@@ -1,48 +1,125 @@
 [
  {
-    "file": "tyrannosauridae:entities/land/tyrannosauridae.json",
+    "file": "abelisauridae:entities/land/abelisauridae.json",
     "op": "addmerge",
     "path": "/attributesByType",
     "side": "Server",
     "value": {
-      "*-tyrannosaurus-*": {
-        "biorealm": [
-          "atlantic nearctic",
-          "pacific nearctic"
-        ]
-      },
-      "*-tarbosaurus-*": {
-        "biorealm": [
-          "eastern paleartic",
-        ]
-      },
-      "*-nanuqsaurus-*": {
-        "biorealm": [
-          "pacific nearctic",
-        ]
-      },
-      "*-albertosaurus-*": {
-        "biorealm": [
-          "atlantic nearctic",
-          "pacific nearctic"
-        ]
-      },
-      "*-gorgosaurus-*": {
-        "biorealm": [
-          "atlantic nearctic",
-          "pacific nearctic"
-        ]
-      },
-      "*-alioramus-*": {
-        "biorealm": [
-          "eastern paleartic",
-        ]
-      },
-      "*-qianzhousaurus-*": {
-        "biorealm": [
-          "eastern paleartic",
-        ]
-      },
+      "*-pycnonemosaurus-*": {
+          "biorealm": [
+            "atlantic neotropic",
+          ]
+        },
+
+    "*-ekrixinatosaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-carnotaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-chenanisaurus-*": {
+            "biorealm": [
+              "atlantic palearctic",
+            ]
+          },
+
+    "*-rajasaurus-*": {
+            "biorealm": [
+              "central palearctic",
+            ]
+          },
+
+    "*-skorpiovenator-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-majungasaurus-*": {
+            "biorealm": [
+              "eastern afrotropic",
+            ]
+          },
+
+    "*-abelisaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-xenotarsosaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-aucasaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-rahiolisaurus-*": {
+            "biorealm": [
+              "central palearctic",
+            ]
+          },
+
+    "*-arcovenator-*": {
+            "biorealm": [
+              "atlantic palearctic",
+            ]
+          },
+
+    "*-rugops-*": {
+            "biorealm": [
+              "atlantic palearctic",
+            ]
+          },
+
+    "*-dahalokely-*": {
+            "biorealm": [
+              "eastern afrotropic",
+            ]
+          },
+
+    "*-ilokelesia-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-viavenator-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-tarascosaurus-*": {
+            "biorealm": [
+              "atlantic palearctic",
+            ]
+          },
+
+    "*-thanos-*": {
+            "biorealm": [
+              "atlantic neotropic",
+            ]
+          },
     },
     "dependsOn": [
       {
@@ -51,49 +128,126 @@
     ]
   },
   {
-    "file": "tyrannosauridae:entities/land/nest.json",
+    "file": "abelisauridae:entities/land/nest.json",
     "op": "addmerge",
     "path": "/attributesByType",
     "side": "Server",
     "value": {
-      "*-tyrannosaurus-*": {
-        "biorealm": [
-          "atlantic nearctic",
-          "pacific nearctic"
-        ]
-      },
-      "*-tarbosaurus-*": {
-        "biorealm": [
-          "eastern paleartic",
-        ]
-      },
-      "*-nanuqsaurus-*": {
-        "biorealm": [
-          "pacific nearctic",
-        ]
-      },
-      "*-albertosaurus-*": {
-        "biorealm": [
-          "atlantic nearctic",
-          "pacific nearctic"
-        ]
-      },
-      "*-gorgosaurus-*": {
-        "biorealm": [
-          "atlantic nearctic",
-          "pacific nearctic"
-        ]
-      },
-      "*-alioramus-*": {
-        "biorealm": [
-          "eastern paleartic",
-        ]
-      },
-      "*-qianzhousaurus-*": {
-        "biorealm": [
-          "eastern paleartic",
-        ]
-      },
+      "*-pycnonemosaurus-*": {
+          "biorealm": [
+            "atlantic neotropic",
+          ]
+        },
+
+    "*-ekrixinatosaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-carnotaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-chenanisaurus-*": {
+            "biorealm": [
+              "atlantic palearctic",
+            ]
+          },
+
+    "*-rajasaurus-*": {
+            "biorealm": [
+              "central palearctic",
+            ]
+          },
+
+    "*-skorpiovenator-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-majungasaurus-*": {
+            "biorealm": [
+              "eastern afrotropic",
+            ]
+          },
+
+    "*-abelisaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-xenotarsosaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-aucasaurus-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-rahiolisaurus-*": {
+            "biorealm": [
+              "central palearctic",
+            ]
+          },
+
+    "*-arcovenator-*": {
+            "biorealm": [
+              "atlantic palearctic",
+            ]
+          },
+
+    "*-rugops-*": {
+            "biorealm": [
+              "atlantic palearctic",
+            ]
+          },
+
+    "*-dahalokely-*": {
+            "biorealm": [
+              "eastern afrotropic",
+            ]
+          },
+
+    "*-ilokelesia-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-viavenator-*": {
+            "biorealm": [
+              "pacific neotropic",
+              "atlantic neotropic",
+            ]
+          },
+
+    "*-tarascosaurus-*": {
+            "biorealm": [
+              "atlantic palearctic",
+            ]
+          },
+
+    "*-thanos-*": {
+            "biorealm": [
+              "atlantic neotropic",
+            ]
+          },
     },
     "dependsOn": [
       {

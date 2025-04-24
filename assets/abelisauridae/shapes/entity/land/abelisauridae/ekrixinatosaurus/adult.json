@@ -200,16 +200,16 @@
 														},
 														{
 															"name": " Jaw",
-															"from": [ -10.2, 0.8, 1.8 ],
+															"from": [ -11.2, 0.8, 1.8 ],
 															"to": [ -3.1, 8.1, 6.8 ],
 															"autoUnwrap": false,
 															"uv": [ 118.0, 50.0 ],
-															"rotationOrigin": [ -4.1, 5.7, 4.2 ],
+															"rotationOrigin": [ -5.1, 5.7, 4.2 ],
 															"rotationZ": -3.0,
 															"faces": {
 																"north": { "texture": "#base-adult", "uv": [ 83.0, 118.0, 89.0, 125.0 ], "autoUv": false },
 																"east": { "texture": "#base-adult", "uv": [ 247.0, 3.0, 251.0, 10.0 ], "autoUv": false },
-																"south": { "texture": "#base-adult", "uv": [ 83.0, 118.0, 90.1, 125.3 ], "snapUv": false },
+																"south": { "texture": "#base-adult", "uv": [ 83.0, 118.0, 91.1, 125.3 ], "snapUv": false },
 																"west": { "texture": "#base-adult", "uv": [ 78.0, 74.0, 82.0, 81.0 ], "autoUv": false },
 																"up": { "texture": "#base-adult", "uv": [ 83.0, 101.0, 89.0, 105.0 ], "autoUv": false },
 																"down": { "texture": "#base-adult", "uv": [ 25.8, 37.2, 32.1, 41.8 ], "rotation": 180, "autoUv": false, "snapUv": false }
@@ -254,11 +254,11 @@
 																},
 																{
 																	"name": "Cheek",
-																	"from": [ 7.1, 0.0, -1.0 ],
-																	"to": [ 10.4, 8.4, 5.9 ],
+																	"from": [ 8.1, 0.0, -1.0 ],
+																	"to": [ 11.4, 8.4, 5.9 ],
 																	"autoUnwrap": false,
 																	"uv": [ 142.0, 61.0 ],
-																	"rotationOrigin": [ 12.8, 3.4, 2.5 ],
+																	"rotationOrigin": [ 13.8, 3.4, 2.5 ],
 																	"faces": {
 																		"north": { "texture": "#base-adult", "uv": [ 89.0, 117.0, 92.3, 125.4 ], "snapUv": false },
 																		"east": { "texture": "#base-adult", "uv": [ 248.0, 3.0, 254.0, 11.0 ], "autoUv": false },
@@ -384,7 +384,7 @@
 																				{
 																					"name": "Headslope",
 																					"from": [ 2.5, -1.5, -0.1 ],
-																					"to": [ 7.4, 2.7, 6.0 ],
+																					"to": [ 8.4, 2.7, 6.0 ],
 																					"autoUnwrap": false,
 																					"uv": [ 115.0, 55.0 ],
 																					"rotationOrigin": [ 2.5, 2.7, 2.3 ],
@@ -760,11 +760,11 @@
 														},
 														{
 															"name": "Low Jaw",
-															"from": [ -10.9, -1.9, 2.4 ],
+															"from": [ -11.9, -1.9, 2.4 ],
 															"to": [ -2.1, 1.0, 6.2 ],
 															"autoUnwrap": false,
 															"uv": [ 117.0, 42.0 ],
-															"rotationOrigin": [ -1.3, 2.2, 4.2 ],
+															"rotationOrigin": [ -2.3, 2.2, 4.2 ],
 															"faces": {
 																"north": { "texture": "#base-adult", "uv": [ 82.0, 125.0, 90.0, 127.0 ], "rotation": 180, "autoUv": false },
 																"east": { "texture": "#base-adult", "uv": [ 249.0, 3.0, 252.0, 5.0 ], "autoUv": false },
@@ -810,11 +810,11 @@
 																},
 																{
 																	"name": "Jaw Line",
-																	"from": [ 8.5, 0.0, -1.4 ],
-																	"to": [ 10.9, 3.1, 4.8 ],
+																	"from": [ 9.5, 0.0, -1.4 ],
+																	"to": [ 11.9, 3.1, 4.8 ],
 																	"autoUnwrap": false,
 																	"uv": [ 143.0, 51.0 ],
-																	"rotationOrigin": [ 13.4, 4.2, 3.5 ],
+																	"rotationOrigin": [ 14.4, 4.2, 3.5 ],
 																	"faces": {
 																		"north": { "texture": "#base-adult", "uv": [ 89.0, 125.0, 91.0, 128.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
 																		"east": { "texture": "#base-adult", "uv": [ 88.5, 82.5, 94.0, 85.5 ], "autoUv": false },
@@ -3046,7 +3046,7 @@
 								"south": { "texture": "#base-adult", "uv": [ 142.72, 117.76, 161.92, 128.64 ], "autoUv": false },
 								"west": { "texture": "#base-adult", "uv": [ 243.84, 0.64, 253.44, 11.52 ], "autoUv": false },
 								"up": { "texture": "#base-adult", "uv": [ 142.72, 98.56, 161.92, 108.16 ], "autoUv": false },
-								"down": { "texture": "#base-adult", "uv": [ 143.0, 148.0, 163.0, 158.0 ], "rotation": 180 }
+								"down": { "texture": "#base-adult", "uv": [ 143.0, 148.0, 163.5, 158.5 ], "rotation": 180 }
 							},
 							"children": [
 								{
@@ -6857,7 +6857,7 @@
 						},
 						{
 							"code": "Rider",
-							"posX": "3.0","posY": "13.0","posZ": "8.0",
+							"posX": "3.0","posY": "14.0","posZ": "8.0",
 							"rotationX": "0.0","rotationY": "-180.0","rotationZ": "0.0"
 						}
 					]

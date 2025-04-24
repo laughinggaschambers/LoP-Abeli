@@ -1,8 +1,8 @@
 {
-	"code": "tyrannosauridae",
+	"code": "abelisauridae",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus"]},
+		{"code": "type","states": ["pycnonemosaurus", "ekrixinatosaurus", "carnotaurus", "chenanisaurus", "rajasaurus", "skorpiovenator", "majungasaurus", "abelisaurus", "xenotarsosaurus", "aucasaurus","rahiolisaurus", "arcovenator","rugops","dahalokely", "ilokelesia", "viavenator", "tarascosaurus", "thanos"]},
 		{ "code": "age", "states": ["nest"] },
 		{ "code": "state", "states": ["incubating","mature","empty"] }
 	],
@@ -90,7 +90,7 @@
 					},
 					{
 						"type": "item",
-						"code": "tyrannosauridae:creature-tyrannosauridae-{type}-egg-raw",
+						"code": "abelisauridae:creature-abelisauridae-{type}-egg-raw",
 						"quantityByType": {
 							"*-incubating": {"avg": 10,"var": 20, "dist":"gaussian"},
 							"*":{"avg": 0,"var": 0}
@@ -106,8 +106,8 @@
 				},
 				"hoursToGrowByType": {"*-incubating": 160,"*-mature": 2},
 				"adultEntityCodesByType": {
-					"*-incubating": ["tyrannosauridae:tyrannosauridae-{type}-nest-mature"],
-					"*-mature": ["tyrannosauridae:tyrannosauridae-{type}-nest-empty"]
+					"*-incubating": ["abelisauridae:abelisauridae-{type}-nest-mature"],
+					"*-mature": ["abelisauridae:abelisauridae-{type}-nest-empty"]
 				}
 			},
 			{"code": "emotionstates","states": []},
@@ -120,34 +120,14 @@
 						"enabledByType": {"*-mature": true,"*": false},
 						"onNearbyEntityCodes": ["player"],
 						"spawnMobs": [
-							"tyrannosauridae:tyrannosauridae-{type}-baby-female",
-							"tyrannosauridae:tyrannosauridae-{type}-baby-male"
+							"abelisauridae:abelisauridae-{type}-baby-female",
+							"abelisauridae:abelisauridae-{type}-baby-male"
 						],
 						"spawnMaxQuantity": 5,
 						"spawnIntervalMsMin": 1000,
 						"spawnIntervalMsMax": 4000,
 						"spawnRange": 0.5,
 						"seekingRange": 100,
-						"priority": 1.9,
-						"minduration": 2000,
-						"maxduration": 8000,
-						"mincooldown": 6000,
-						"maxcooldown": 12000,
-						"animationSpeed": 2.0
-					},
-					{
-						"code": "bellalarm",
-						"animation": "Idle",
-						"enabledByType": {"*-incubating": true,"*": false},
-						"onNearbyEntityCodes": ["player"],
-						"spawnMobs": [
-							"tyrannosauridae:tyrannosauridae-{type}-adult-female",
-						],
-						"spawnMaxQuantity": 1,
-						"spawnIntervalMsMin": 10000,
-						"spawnIntervalMsMax": 300000,
-						"spawnRange": 12,
-						"seekingRange": 50,
 						"priority": 1.9,
 						"minduration": 2000,
 						"maxduration": 8000,
@@ -170,7 +150,9 @@
 		],
 		"spawnconditions": {
             "worldgen": {
+				"chanceByType": {"*-empty": 0.0},
 				"triesPerChunk": { "avg": 0.0, "var": 0},
+				"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 },
                 "tryOnlySurface": true,
                 "insideBlockCodes": [
                     "game:air",
@@ -183,14 +165,15 @@
                 "groupSizeByType": {
 					"*": { "dist": "uniform", "avg": 1, "var": 0 }
 				},
-                "*":["tyrannosauridae:tyrannosauridae-{type}-adult-female","tyrannosauridae:tyrannosauridae-{type}-adult-male"]},
+                "*":["abelisauridae:abelisauridae-{type}-adult-female","abelisauridae:abelisauridae-{type}-adult-male"]},
 
 			"runtime": {
 				"group": "neutral",
 				"tryOnlySurface": true,
 				"chanceByType": {"*-incubating": 0.00001,"*": 0.0},
 				"TriesPerChunk": { "avg": 0.0, "var": 0 },
-				"mindistancetoplayer": 50,
+				"maxQuantityByGroup": {"code": "abelisauridae-*",	"maxQuantity": 1},
+				"mindistancetoplayer": 100,
 				"maxLightLevel": 7,
 				"lightLevelType": "onlyBlockLight",
 				"spawnCapPlayerScaling": 0.0,
@@ -206,141 +189,350 @@
                     "game:soil-*"
                 ],
 				"companionsByType": {
-				"*":["tyrannosauridae:tyrannosauridae-{type}-adult-female","tyrannosauridae:tyrannosauridae-{type}-adult-male"]}
+				"*":["abelisauridae:abelisauridae-{type}-adult-female","abelisauridae:abelisauridae-{type}-adult-male"]}
 			}
 		},
 		"spawnconditionsByType": {
-			"*-tyrannosaurus-*": {
-				"climate": {
-					"minTemp": 18,
-					"maxTemp": 30,
-					"minRain": 0.3,
-					"maxRain": 1.0,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 1.0,
-					"maxShrubs": 1.0,
-					"minY": 0.9,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-tarbosaurus-*": {
+			"*-pycnonemosaurus-*": {
 				"climate": {
 					"minTemp": 20,
-					"maxTemp": 40,
-					"minRain": 0,
+					"maxTemp": 34,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.2
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-ekrixinatosaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 18,
+					"maxTemp": 32,
+					"minRain": 0.3,
 					"maxRain": 0.6,
-					"minForestOrShrubs": 0,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 0.9,
+					"maxY": 1.1
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-carnotaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 22,
+					"maxTemp": 36,
+					"minRain": 0.5,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.5,
 					"maxForest": 0.7,
 					"maxShrubs": 0.7,
 					"minY": 0.9,
-					"maxY": 1.7
+					"maxY": 1.3
 				},
 				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
 				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
 				}
 			},
-			"*-nanuqsaurus-*": {
-				"climate": {
-					"minTemp": -10,
-					"maxTemp": 15,
-					"minRain": 0,
-					"maxRain": 1,
-					"minForestOrShrubs": 0,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.2,
-					"maxY": 1.8
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-albertosaurus-*": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 28,
-					"minRain": 0.4,
-					"maxRain": 1,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.2,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-gorgosaurus-*": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 27,
-					"minRain": 0.5,
-					"maxRain": 1,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.1,
-					"maxY": 1.7
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-alioramus-*": {
-				"climate": {
-					"minTemp": 22,
-					"maxTemp": 34,
-					"minRain": 0.3,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.1,
-					"maxY": 1.4
-				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
-				}
-			},
-			"*-alioramus-*": {
+    "*-chenanisaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 20,
 					"maxTemp": 35,
 					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.6,
-					"maxForest": 1,
-					"maxShrubs": 1,
-					"minY": 1.1,
-					"maxY": 1.5
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.2
 				},
 				"worldgen": {
-					"triesPerChunk": { "avg": 0.0007, "var": 0}
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
 				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "tyrannosauridae-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-rajasaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 24,
+					"maxTemp": 38,
+					"minRain": 0.6,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.6,
+					"maxForest": 0.7,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
+					"maxY": 1.2
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-abelisaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 20,
+					"maxTemp": 34,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.2
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-majungasaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 22,
+					"maxTemp": 36,
+					"minRain": 0.5,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.7,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
+					"maxY": 1.1
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-skorpiovenator-nest-incubating": {
+				"climate": {
+					"minTemp": 20,
+					"maxTemp": 34,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.2
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-xenotarsosaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 18,
+					"maxTemp": 32,
+					"minRain": 0.3,
+					"maxRain": 0.6,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 0.9,
+					"maxY": 1.1
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-rahiolisaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 24,
+					"maxTemp": 38,
+					"minRain": 0.6,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.6,
+					"maxForest": 0.7,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
+					"maxY": 1.3
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-arcovenator-nest-incubating": {
+				"climate": {
+					"minTemp": 18,
+					"maxTemp": 32,
+					"minRain": 0.3,
+					"maxRain": 0.6,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 0.9,
+					"maxY": 1.1
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-rugops-nest-incubating": {
+				"climate": {
+					"minTemp": 22,
+					"maxTemp": 36,
+					"minRain": 0.5,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.7,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
+					"maxY": 1.1
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-aucasaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 19,
+					"maxTemp": 33,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.2
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-dahalokely-nest-incubating": {
+				"climate": {
+					"minTemp": 20,
+					"maxTemp": 34,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.2
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-ilokelesia-nest-incubating": {
+				"climate": {
+					"minTemp": 18,
+					"maxTemp": 32,
+					"minRain": 0.3,
+					"maxRain": 0.6,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 0.9,
+					"maxY": 1.1
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-viavenator-nest-incubating": {
+				"climate": {
+					"minTemp": 20,
+					"maxTemp": 34,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 0.9,
+					"maxY": 1.2
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-tarascosaurus-nest-incubating": {
+				"climate": {
+					"minTemp": 18,
+					"maxTemp": 32,
+					"minRain": 0.3,
+					"maxRain": 0.6,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 0.9,
+					"maxY": 1.1
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
+				}
+			},
+    "*-thanos-nest-incubating": {
+				"climate": {
+					"minTemp": 22,
+					"maxTemp": 36,
+					"minRain": 0.5,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.7,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
+					"maxY": 1.2
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.0001, "var": 0}
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
 				}
 			},
 		}

@@ -1,8 +1,8 @@
 {
-	"code": "tyrannosauridae",
+	"code": "abelisauridae",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus"]},
+		{"code": "type","states": ["pycnonemosaurus", "ekrixinatosaurus", "carnotaurus", "chenanisaurus", "rajasaurus", "skorpiovenator", "majungasaurus", "abelisaurus", "xenotarsosaurus", "aucasaurus","rahiolisaurus", "arcovenator","rugops","dahalokely", "ilokelesia", "viavenator", "tarascosaurus", "thanos"]},
 		{"code": "age", "states": ["egg"] },
 		{"code": "state", "states": ["raw"] }
 	],
@@ -25,10 +25,10 @@
 	"weightByType": {
 		"*": 1
 	},
-	"drops": [{ "type": "item", "code": "creature-tyrannosauridae-{type}-egg-raw" }],
+	"drops": [{ "type": "item", "code": "creature-abelisauridae-{type}-egg-raw" }],
 	"attributes": {
 		"handbook": {
-			"groupcode": "creaturegroup-tyrannosauridae"
+			"groupcode": "creaturegroup-abelisauridae"
 		}
 	},
 	"client": {
@@ -62,7 +62,7 @@
 			{ 
 				"code": "grow", 
 				"hoursToGrow": 160,
-				"adultEntityCodesByType": {"*": ["tyrannosauridae:tyrannosauridae-{type}-baby-female","tyrannosauridae:tyrannosauridae-{type}-baby-female"]}
+				"adultEntityCodesByType": {"*": ["abelisauridae:abelisauridae-{type}-baby-female","abelisauridae:abelisauridae-{type}-baby-female"]}
 				},
 			{
 				"code": "taskai",
@@ -90,7 +90,7 @@
 				"maxQuantity": 1,
 				"spawnCapPlayerScaling": 0.0,
 				"maxQuantityByGroup": {
-					"code": "tyrannosauridae-*",
+					"code": "abelisauridae-*",
 					"maxQuantity": 1
 				},
 				"chanceByType": {

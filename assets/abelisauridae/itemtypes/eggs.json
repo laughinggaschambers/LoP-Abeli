@@ -3,8 +3,8 @@
 	"class": "ItemCreature",
 	"maxstacksize": 32,
 	"variantgroups": [
-		{"code": "family","states": ["tyrannosauridae",]},
-		{"code": "type","states": ["tyrannosaurus","tarbosaurus","nanuqsaurus","albertosaurus","gorgosaurus","alioramus","qianzhousaurus"]},
+		{"code": "family","states": ["abelisauridae",]},
+		{"code": "type","states": ["pycnonemosaurus", "ekrixinatosaurus", "carnotaurus", "chenanisaurus", "rajasaurus", "skorpiovenator", "majungasaurus", "abelisaurus", "xenotarsosaurus", "aucasaurus","rahiolisaurus", "arcovenator","rugops","dahalokely", "ilokelesia", "viavenator", "tarascosaurus", "thanos"]},
 		{ "code": "age", "states": ["egg"] },
 		{ "code": "state", "states": ["raw"] }
 	],
