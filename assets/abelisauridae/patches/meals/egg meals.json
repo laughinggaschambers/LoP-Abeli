@@ -1,6 +1,5 @@
 [
-
-  {
+{
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
     "op": "addmerge",
@@ -755,5 +754,4 @@
     "path": "/attributesByType/claypot-cooked/textureMapping/abelisauridae:creature-abelisauridae-thanos-egg-raw",
     "value": [ "meat", "group6" ]
   },
-
 ]
