@@ -51,7 +51,7 @@
     "deadhitBoxSizeByType": {"*-adult-*":{	"x": 1.5,"y": 1.5},"*-baby-*":{	"x": 1,"y": 1}},
     "eyeHeightByType": {"*":3},
     "weightByType": {"*-adult-*":4000,"*-baby-*":10},
-    "knockbackResistanceByType": {"*-adult-*": 3,"*-baby-*": 1	},
+    "knockbackResistanceByType": {"*-adult-*": 1,"*-baby-*": 0	},
 
     "drops": [],
     "attributes": {
@@ -711,7 +711,10 @@
 
 											"dromaeosauridae-dromaeosaurus-adult-*","dromaeosauridae-adasaurus-adult-*","dromaeosauridae-velociraptor-adult-*","dromaeosauridae-saurornitholestes-adult-*","dromaeosauridae-atrociraptor-adult-*","dromaeosauridae-pyroraptor-adult-*","dromaeosauridae-buitreraptor-adult-*","dromaeosauridae-microraptor-adult-*","dromaeosauridae-rahonavis-adult-*",
 
-											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
+											"ceratopsidae-triceratops-baby-*","ceratopsidae-torosaurus-baby-*","ceratopsidae-pentaceratops-baby-*","ceratopsidae-pachyrhinosaurus-baby-*","ceratopsidae-styracosaurus-baby-*","ceratopsidae-centrosaurus-baby-*","ceratopsidae-xenoceratops-baby-*","ceratopsidae-machairoceratops-baby-*","ceratopsidae-nedoceratops-baby-*","ceratopsidae-sinoceratops-baby-*","ceratopsidae-regaliceratops-baby-*","ceratopsidae-nasutoceratops-baby-*","ceratopsidae-leptoceratops-baby-*","ceratopsidae-protoceratops-baby-*","ceratopsidae-ajkaceratops-baby-*",
+
+											"ceratopsidae-leptoceratops-adult-*","ceratopsidae-protoceratops-adult-*","ceratopsidae-ajkaceratops-adult-*",
+
 
 											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
 
@@ -733,7 +736,8 @@
 							"*-baby-*":[
 											"player","chicken-*","gazelle-*","goat-*","sheep-*","pig-*","hare-*","deer-*","raccoon-*","moose-*","wolf-pup",
 
-											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
+											"ceratopsidae-triceratops-baby-*","ceratopsidae-torosaurus-baby-*","ceratopsidae-pentaceratops-baby-*","ceratopsidae-pachyrhinosaurus-baby-*","ceratopsidae-styracosaurus-baby-*","ceratopsidae-centrosaurus-baby-*","ceratopsidae-xenoceratops-baby-*","ceratopsidae-machairoceratops-baby-*","ceratopsidae-nedoceratops-baby-*","ceratopsidae-sinoceratops-baby-*","ceratopsidae-regaliceratops-baby-*","ceratopsidae-nasutoceratops-baby-*","ceratopsidae-leptoceratops-baby-*","ceratopsidae-protoceratops-baby-*","ceratopsidae-ajkaceratops-baby-*",
+
 
 											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
 
@@ -794,6 +798,8 @@
 
 											"macronaria-malawisaurus-adult-*","macronaria-rapetosaurus-adult-*","macronaria-ampelosaurus-adult-*",
 
+											"ceratopsidae-leptoceratops-adult-*","ceratopsidae-protoceratops-adult-*","ceratopsidae-ajkaceratops-adult-*",
+
 											"tyrannosauridae-alioramus-adult-*","tyrannosauridae-nanuqsaurus-adult-*",
 
 											"pachycephalosauria-*",
@@ -827,7 +833,10 @@
 
 											"dromaeosauridae-*","hadrosauroidea-*","pachycephalosauria-*",
 
-											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
+											"ceratopsidae-triceratops-baby-*","ceratopsidae-torosaurus-baby-*","ceratopsidae-pentaceratops-baby-*","ceratopsidae-pachyrhinosaurus-baby-*","ceratopsidae-styracosaurus-baby-*","ceratopsidae-centrosaurus-baby-*","ceratopsidae-xenoceratops-baby-*","ceratopsidae-machairoceratops-baby-*","ceratopsidae-nedoceratops-baby-*","ceratopsidae-sinoceratops-baby-*","ceratopsidae-regaliceratops-baby-*","ceratopsidae-nasutoceratops-baby-*","ceratopsidae-leptoceratops-baby-*","ceratopsidae-protoceratops-baby-*","ceratopsidae-ajkaceratops-baby-*",
+
+											"ceratopsidae-leptoceratops-adult-*","ceratopsidae-protoceratops-adult-*","ceratopsidae-ajkaceratops-adult-*",
+
 
 											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
 
@@ -842,7 +851,8 @@
 							"*-baby-*":[
 											"player","chicken-*","gazelle-*","goat-*","sheep-*","pig-*","hare-*","deer-*","raccoon-*","moose-*","wolf-pup",
 
-											"ceratopsidae-triceratops-baby-*", "ceratopsidae-pentaceratops-baby-*", "ceratopsidae-styracosaurus-baby-*", "ceratopsidae-centrosaurus-baby-*", "ceratopsidae-nasutoceratops-baby-*", "ceratopsidae-pachyrhinosaurus-baby-*","macronaria-argentinosaurus-baby-*","macronaria-patagotitan-baby-*","macronaria-dreadnoughtus-baby-*","macronaria-futalognkosaurus-baby-*","macronaria-brachiosaurus-baby-*","macronaria-giraffatitan-baby-*","macronaria-diamantinasaurus-baby-*","macronaria-europatitan-baby-*","macronaria-antarctosaurus-baby-*","macronaria-ruyangosaurus-baby-*","macronaria-camarasaurus-baby-*","macronaria-bruhathkayosaurus-baby-*","macronaria-malawisaurus-baby-*","macronaria-rapetosaurus-baby-*","macronaria-ampelosaurus-baby-*",
+											"ceratopsidae-triceratops-baby-*","ceratopsidae-torosaurus-baby-*","ceratopsidae-pentaceratops-baby-*","ceratopsidae-pachyrhinosaurus-baby-*","ceratopsidae-styracosaurus-baby-*","ceratopsidae-centrosaurus-baby-*","ceratopsidae-xenoceratops-baby-*","ceratopsidae-machairoceratops-baby-*","ceratopsidae-nedoceratops-baby-*","ceratopsidae-sinoceratops-baby-*","ceratopsidae-regaliceratops-baby-*","ceratopsidae-nasutoceratops-baby-*","ceratopsidae-leptoceratops-baby-*","ceratopsidae-protoceratops-baby-*","ceratopsidae-ajkaceratops-baby-*",
+
 
 											"ankylosauria-ankylosaurus-baby-*","ankylosauria-tarchia-baby-*","ankylosauria-euoplocephalus-baby-*","ankylosauria-edmontonia-baby-*","ankylosauria-ankylosaurus-baby-*","ankylosauria-pinacosaurus-baby-*","ankylosauria-antarctopelta-baby-*","ankylosauria-struthiosaurus-baby-*",
 
@@ -1076,7 +1086,8 @@
 
                         "tyrannosauridae-*",
 
-                        "ceratopsidae-triceratops-adult-*", "ceratopsidae-pentaceratops-adult-*", "ceratopsidae-styracosaurus-adult-*", "ceratopsidae-centrosaurus-adult-*", "ceratopsidae-nasutoceratops-adult-*", "ceratopsidae-pachyrhinosaurus-adult-*",
+                        "ceratopsidae-triceratops-adult-*","ceratopsidae-torosaurus-adult-*","ceratopsidae-pentaceratops-adult-*","ceratopsidae-pachyrhinosaurus-adult-*","ceratopsidae-styracosaurus-adult-*","ceratopsidae-centrosaurus-adult-*","ceratopsidae-xenoceratops-adult-*","ceratopsidae-machairoceratops-adult-*","ceratopsidae-nedoceratops-adult-*","ceratopsidae-sinoceratops-adult-*","ceratopsidae-regaliceratops-adult-*","ceratopsidae-nasutoceratops-adult-*",
+
 
                         "ankylosauria-ankylosaurus-adult-*","ankylosauria-tarchia-adult-*","ankylosauria-euoplocephalus-adult-*","ankylosauria-edmontonia-adult-*","ankylosauria-ankylosaurus-adult-*","ankylosauria-pinacosaurus-adult-*","ankylosauria-antarctopelta-adult-*","ankylosauria-struthiosaurus-adult-*",
 
@@ -1126,7 +1137,8 @@
                         "entityCodes": [
 						"tyrannosauridae-tyrannosaurus-adult-*","tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-qianzhousaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-zhuchengtyrannus-adult-*","tyrannosauridae-bistahieversor-adult-*","tyrannosauridae-thanatotheristes-adult-*","tyrannosauridae-teratophoneus-adult-*","tyrannosauridae-dynamoterror-adult-*",
 
-                        "ceratopsidae-triceratops-adult-*", "ceratopsidae-pentaceratops-adult-*", "ceratopsidae-styracosaurus-adult-*", "ceratopsidae-centrosaurus-adult-*", "ceratopsidae-nasutoceratops-adult-*", "ceratopsidae-pachyrhinosaurus-adult-*",
+                        "ceratopsidae-triceratops-adult-*","ceratopsidae-torosaurus-adult-*","ceratopsidae-pentaceratops-adult-*","ceratopsidae-pachyrhinosaurus-adult-*","ceratopsidae-styracosaurus-adult-*","ceratopsidae-centrosaurus-adult-*","ceratopsidae-xenoceratops-adult-*","ceratopsidae-machairoceratops-adult-*","ceratopsidae-nedoceratops-adult-*","ceratopsidae-sinoceratops-adult-*","ceratopsidae-regaliceratops-adult-*","ceratopsidae-nasutoceratops-adult-*",
+
                         ],
                         "priorityByType": {"*-adult-*":1.8,"*-baby-*":1.8,},
                         "seekingRange": 40,
@@ -1165,7 +1177,8 @@
 						"tyrannosauridae-tyrannosaurus-adult-*", "tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-qianzhousaurus-adult-*",
 						"tyrannosauridae-zhuchengtyrannus-adult-*",
 
-                        "ceratopsidae-triceratops-adult-*", "ceratopsidae-pentaceratops-adult-*", "ceratopsidae-styracosaurus-adult-*", "ceratopsidae-centrosaurus-adult-*", "ceratopsidae-nasutoceratops-adult-*", "ceratopsidae-pachyrhinosaurus-adult-*",
+                        "ceratopsidae-triceratops-adult-*","ceratopsidae-torosaurus-adult-*","ceratopsidae-pentaceratops-adult-*","ceratopsidae-pachyrhinosaurus-adult-*","ceratopsidae-styracosaurus-adult-*","ceratopsidae-centrosaurus-adult-*","ceratopsidae-xenoceratops-adult-*","ceratopsidae-machairoceratops-adult-*","ceratopsidae-nedoceratops-adult-*","ceratopsidae-sinoceratops-adult-*","ceratopsidae-regaliceratops-adult-*","ceratopsidae-nasutoceratops-adult-*",
+
                         ],
                         "priorityByType": {"*-adult-*":1.8,"*-baby-*":1.8,},
                         "seekingRange": 25,
@@ -1220,6 +1233,7 @@
 						"animation": "Run",
 						"priority": 1.4,
 						"entityCodeByType": {
+							"*-adult-*": "abelisauridae-{type}-baby-{gender}",
 							"*-baby-*": "abelisauridae-{type}-adult-female"},
 						"movespeedByType": {"*-adult-*":0.05,"*-baby-*":0.035},
 						"animationSpeedByType": {"*-adult-*":1.5,"*-baby-*":2.5},
@@ -1325,6 +1339,10 @@
 						"code": "stayclosetoentity",
 						"animation": "Run",
 						"priority": 2,
+						"enabledByType":{
+							"*-baby-*":false,
+							"*-adult-*":true,
+                        },
 						"entityCodeByType": {
 							"*-adult-*": "hitch"
 							},
@@ -1357,8 +1375,12 @@
 					{
 						"code": "seekentity",
 						"animation": "Run",
+						"enabledByType":{
+							"*-baby-*":false,
+							"*-adult-*":true,
+                        },
 						"entityCodesByType": {"*-adult-*":["hitch"],},
-						"priority": 1.85,
+						"priority": 1.0,
 						"seekingRange": 10,
 						"belowTempSeekingRange": 10,
 						"movespeedByType": {
