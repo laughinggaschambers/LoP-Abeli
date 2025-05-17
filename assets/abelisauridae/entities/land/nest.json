@@ -151,7 +151,7 @@
 		"spawnconditions": {
             "worldgen": {
 				"chanceByType": {"*-empty": 0.0},
-				"triesPerChunk": { "avg": 0.0, "var": 0},
+				"triesPerChunkByType": {"*-incubating":{ "avg": 0.001, "var": 0}},
 				"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 },
                 "tryOnlySurface": true,
                 "insideBlockCodes": [
@@ -195,345 +195,237 @@
 		"spawnconditionsByType": {
 			"*-pycnonemosaurus-*": {
 				"climate": {
-					"minTemp": 20,
+					"minTemp": 17,
 					"maxTemp": 34,
-					"minRain": 0.4,
-					"maxRain": 0.7,
+					"minRain": 0.2,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
-					"maxForest": 0.6,
+					"maxForest": 1,
 					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.2
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-ekrixinatosaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 18,
+					"minTemp": 15,
 					"maxTemp": 32,
-					"minRain": 0.3,
-					"maxRain": 0.6,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.5,
+					"minRain": 0.1,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.1,
+					"maxForest": 1,
 					"maxShrubs": 0.5,
 					"minY": 0.9,
 					"maxY": 1.1
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-carnotaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 22,
+					"minTemp": 19,
 					"maxTemp": 36,
-					"minRain": 0.5,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.7,
+					"minRain": 0.3,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 1,
 					"maxShrubs": 0.7,
 					"minY": 0.9,
 					"maxY": 1.3
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-chenanisaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 20,
+					"minTemp": 17,
 					"maxTemp": 35,
-					"minRain": 0.4,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.6,
+					"minRain": 0.2,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 1,
 					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.2
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-rajasaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 24,
+					"minTemp": 21,
 					"maxTemp": 38,
-					"minRain": 0.6,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.6,
-					"maxForest": 0.7,
+					"minRain": 0.4,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 1,
 					"maxShrubs": 0.7,
 					"minY": 0.9,
 					"maxY": 1.2
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-abelisaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 20,
+					"minTemp": 17,
 					"maxTemp": 34,
-					"minRain": 0.4,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.6,
+					"minRain": 0.2,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 1,
 					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.2
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-majungasaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 22,
+					"minTemp": 19,
 					"maxTemp": 36,
-					"minRain": 0.5,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.7,
+					"minRain": 0.3,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 1,
 					"maxShrubs": 0.7,
 					"minY": 0.9,
 					"maxY": 1.1
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-skorpiovenator-nest-incubating": {
 				"climate": {
-					"minTemp": 20,
+					"minTemp": 17,
 					"maxTemp": 34,
-					"minRain": 0.4,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.6,
+					"minRain": 0.2,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 1,
 					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.2
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-xenotarsosaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 18,
+					"minTemp": 15,
 					"maxTemp": 32,
-					"minRain": 0.3,
-					"maxRain": 0.6,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.5,
+					"minRain": 0.1,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.1,
+					"maxForest": 1,
 					"maxShrubs": 0.5,
 					"minY": 0.9,
 					"maxY": 1.1
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-rahiolisaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 24,
+					"minTemp": 21,
 					"maxTemp": 38,
-					"minRain": 0.6,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.6,
-					"maxForest": 0.7,
+					"minRain": 0.3,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 1,
 					"maxShrubs": 0.7,
 					"minY": 0.9,
 					"maxY": 1.3
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-arcovenator-nest-incubating": {
 				"climate": {
-					"minTemp": 18,
+					"minTemp": 15,
 					"maxTemp": 32,
-					"minRain": 0.3,
-					"maxRain": 0.6,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.5,
+					"minRain": 0.1,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.1,
+					"maxForest": 1,
 					"maxShrubs": 0.5,
 					"minY": 0.9,
 					"maxY": 1.1
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-rugops-nest-incubating": {
 				"climate": {
-					"minTemp": 22,
+					"minTemp": 19,
 					"maxTemp": 36,
-					"minRain": 0.5,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.7,
+					"minRain": 0.3,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 1,
 					"maxShrubs": 0.7,
 					"minY": 0.9,
 					"maxY": 1.1
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-aucasaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 19,
+					"minTemp": 16,
 					"maxTemp": 33,
-					"minRain": 0.4,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.6,
+					"minRain": 0.2,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 1,
 					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.2
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-dahalokely-nest-incubating": {
 				"climate": {
-					"minTemp": 20,
+					"minTemp": 17,
 					"maxTemp": 34,
-					"minRain": 0.4,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.6,
+					"minRain": 0.2,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 1,
 					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.2
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-ilokelesia-nest-incubating": {
 				"climate": {
-					"minTemp": 18,
+					"minTemp": 15,
 					"maxTemp": 32,
-					"minRain": 0.3,
-					"maxRain": 0.6,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.5,
+					"minRain": 0.1,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.1,
+					"maxForest": 1,
 					"maxShrubs": 0.5,
 					"minY": 0.9,
 					"maxY": 1.1
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-viavenator-nest-incubating": {
 				"climate": {
-					"minTemp": 20,
+					"minTemp": 17,
 					"maxTemp": 34,
-					"minRain": 0.4,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.6,
+					"minRain": 0.2,
+					"maxRain": 1,
+					"minForestOrShrubs": 0.2,
+					"maxForest": 1,
 					"maxShrubs": 0.6,
 					"minY": 0.9,
 					"maxY": 1.2
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-tarascosaurus-nest-incubating": {
 				"climate": {
-					"minTemp": 18,
+					"minTemp": 15,
 					"maxTemp": 32,
-					"minRain": 0.3,
-					"maxRain": 0.6,
+					"minRain": 0.2,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.3,
-					"maxForest": 0.5,
+					"maxForest": 1,
 					"maxShrubs": 0.5,
 					"minY": 0.9,
 					"maxY": 1.1
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
     "*-thanos-nest-incubating": {
 				"climate": {
-					"minTemp": 22,
+					"minTemp": 19,
 					"maxTemp": 36,
-					"minRain": 0.5,
-					"maxRain": 0.8,
+					"minRain": 0.3,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
-					"maxForest": 0.7,
+					"maxForest": 1,
 					"maxShrubs": 0.7,
 					"minY": 0.9,
 					"maxY": 1.2
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.0001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "abelisauridae-*", "maxQuantity": 1 }
-				}
 			},
 		}
 	}
