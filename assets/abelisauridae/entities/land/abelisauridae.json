@@ -368,6 +368,9 @@
 			"*-thanos-adult-male": 0.45,"*-thanos-adult-female": 0.3,"*-thanos-baby-*": 0.45,
 		},
         "behaviors": [
+			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 7 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
 			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
             {"code": "repulseagents" },
 			{"code": "controlledphysics","stepHeightByType":
@@ -382,10 +385,6 @@
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
 			{"code": "ropetieable","minGeneration": 8},
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
-			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 7 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
-
         ],
         "animations": [
             {"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -408,10 +407,10 @@
     "server": {
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 60,"maxTurnAnglePerSec": 120}},
         "behaviors": [
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 7 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
 			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 7 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeightByType":
 				{
@@ -931,7 +930,7 @@
 							"*-baby-*":2.5,
 							"*-adult-*":1.7,
 						},
-						"whenInEmotionState": "aggressivearoundentities|aggressiveondamage|fleeondamage",
+						"whenInEmotionState": "aggressiveondamage|fleeondamage",
 					},
 					{
 						"code": "wander",
